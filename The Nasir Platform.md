@@ -60,10 +60,6 @@ The internal wallet simplifies Nasir Coin transactions and ensures user security
 
 The Decentralized Autonomous Organization (DAO) governs Nasir Platform development process and ensures funds are used to benefit the platform and its student community. DAO operations are executed transparently using blockchain technology, specifically Ethereum.
 
-#### AI Systems
-
-AI/ML models within the Nasir Platform support functions like content moderation in forums, community engagement in NPC forums and preventing duplication in Senfi Yar, with future expansions planned for additional L2 apps.
-
 #### Account Management
 
 A dedicated module manages user accounts and integrates seamlessly with the platform's authentication and crypto systems.

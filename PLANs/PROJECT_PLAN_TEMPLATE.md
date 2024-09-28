@@ -1,14 +1,11 @@
+this is basically a system design of an IDEA.
 ## 1. Project Overview
 
-- **Project Name:**  
-    Provide the name of the project or system.
-    
 - **Idea Source:**  
-    Reference the idea from Docs/Idea.md that inspired this plan.
+    Reference the idea from Docs/IDEAs that inspired this plan.
     
-- **Objective:**  
-    Define the core objective or the problem the project aims to solve.
-    
+- **Project Review**
+	review the IDEA purpose and scopes
 
 ---
 
@@ -41,43 +38,49 @@
 
 ## 4. RECOMMENDED Tools and Technologies
 
-- **Programming Languages:**  
-    List preferred programming languages.
-    
-- **Frameworks & Libraries:**  
-    Mention any specific frameworks or libraries to be used.
-    
-- **Databases:**  
-    List databases and related technologies.
+- **Programming languages, Frameworks & Libraries:**  
+    Mention any preferred tool to be used.
     
 - **Other Tools:**  
     List any additional tools (e.g., CI/CD, version control, testing frameworks).
 
 
-above recommended tools are not mandatory and you can implement it with any tools that you want
+above recommended tools are not mandatory and you can implement it with any tools that you want. 
+
+--- 
+## 5. Database Design
+
+- **Database Design**: Choosing the appropriate database type (relational vs. NoSQL), data models, and normalization.
+
 
 ---
 
-## 5. System Architecture
+## 6. System Architecture
 
-- **Design Overview:**  
-    Provide a high-level description of the system architecture (e.g., microservices, monolithic, etc.).
-    
+- **System Architecture**: High-level structure of the system, how different components interact.
+- **Modularity**: How the system is divided into independent modules, promoting maintainability and scalability.
+- **Layering**: Separation of concerns (e.g., presentation, business logic, data access layers).
 - **Architecture Diagram (Optional):**  
     Include a simple diagram of how the components will interact.
-    
 
 ---
 
+## 7. Security
 
-## 6. Future Enhancements (Optional)
+- **Authentication & Authorization:** 
+	How users log in and what they are allowed to do.
+- **Data Protection:**
+	Encryption and secure data storage
+
+--- 
+## 8. Future Enhancements (Optional)
 
 - **Planned Enhancements:**  
     List any potential features or improvements that could be added later.
 
 ---
 
-## 7. Potential Risks & Mitigation (Optional)
+## 9. Potential Risks & Mitigation (Optional)
 
 - **Risk 1:**  
     Description and mitigation strategy.
@@ -88,7 +91,7 @@ above recommended tools are not mandatory and you can implement it with any tool
 
 ---
 
-## 8. References
+## 10. References
 
 - **Related Documentation:**  
     List any related documents (e.g., research papers, specifications) for further context.

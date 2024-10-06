@@ -12,9 +12,9 @@ The Nasir Platform also serves as a hub for students interested in computer scie
 
 The Nasir Platform operates with two primary layers:
 
-1. **Layer 1 (L1)**: This encompasses critical systems like authentication, crypto systems, the DAO, and AI frameworks. Users typically do not interact directly with L1 systems, which form the foundational infrastructure supporting the platform's applications.
+1. **Layer 1 (L1)**: This encompasses critical systems like authentication, crypto systems and the DAO. Users typically do not interact directly with L1 systems, which form the foundational infrastructure supporting the platform's applications.
     
-2. **Layer 2 (L2)**: This layer includes user-facing applications such as advanced data gathering systems, community forums, educational wikis, and transactional tools like Snapp Eshteraki and book exchanges.
+2. **Layer 2 (L2)**: This layer includes user-facing applications such as advanced data gathering systems, community forums, educational wikis, and transactional tools like Snapp Share and book exchanges.
     
 
 ### Layer 1
@@ -26,16 +26,16 @@ L1 systems are crucial to the Nasir Platform's operation. These components colla
 The platform employs four authentication tiers:
 
 1. **Biganeh**: Limited access to select L2 programs, requiring only an email address or Ethereum/TON wallet for registration.
-2. **Shahrvand**: Full access granted to current KNTU students, staff, or faculty members through university-issued credentials.
+2. **University Member**: Full access granted to current KNTU students, staff, or faculty members through university-issued credentials.
 3. **Dev**: Members of CSSA Clubs with access to specific codebases authorized by their respective clubs. Devs can hold either Biganeh or Shahrvand status.
-4. **Hakem**: DAO members of Nasir Coin with full access privileges across all L2 applications, governed by DAO guidelines.
+4. **Governor**: DAO members of The Nasir Platform with full access privileges across all L2 applications, governed by DAO guidelines.
 
-|           | Authentication Method | L2 App Access          | Privacy Level |
-| --------- | --------------------- | ---------------------- | ------------- |
-| Biganeh   | Email or wallet       | Restricted             | High          |
-| Shahrvand | Student ID or Uni ID  | Full                   | Low           |
-| Dev       | Club verification     | Specific club projects | Low           |
-| Hakem     | DAO membership        | Full                   | Low           |
+|                  | Authentication Method | L2 App Access          | Privacy Level |
+| ---------------- | --------------------- | ---------------------- | ------------- |
+| Biganeh          | Email or wallet       | Restricted             | High          |
+| UniveristyMember | Student ID or Uni ID  | Full                   | Low           |
+| Dev              | Club verification     | Specific club projects | Low           |
+| Governor         | DAO membership        | Full                   | Low           |
 
 #### Nasir Coin (Crypto System)
 
@@ -45,20 +45,19 @@ Let's explore the practical uses of Nasir Coin within the Nasir Platform:
 
 - Honeypot projects can be incentivized with Nasir Coin.
 - Extra projects in university subjects can be rewarded with Nasir Coin.
-- Open-source developers will receive Nasir Coin as a reward.
+- Open-source developers might receive Nasir Coin as a reward.
 - Club registration fees, courses, and events can be paid with Nasir Coin.
 - Books and notes can be exchanged using Nasir Coin.
 - Food codes can be exchanged using Nasir Coin.
 - Loan mechanisms can be facilitated through external funding projects using Nasir Coin.
 
-Full implementation details is in [Nasir Coin whitepaper](link) .
 #### Internal Wallet (Crypto System)
 
 The internal wallet simplifies Nasir Coin transactions and ensures user security by managing private keys securely. Integration with MetaMask allows users additional control over their Nasir Coins outside the platform's internal system.
 
 #### DAO
 
-The Decentralized Autonomous Organization (DAO) governs Nasir Platform development process and ensures funds are used to benefit the platform and its student community. DAO operations are executed transparently using blockchain technology, specifically Ethereum.
+The Decentralized Autonomous Organization (DAO) governs Nasir Platform development process and ensures funds are used to benefit the platform and its student community. DAO operations are executed transparently .
 
 #### Account Management
 
@@ -70,106 +69,54 @@ L2 modules are designed to directly address student needs and facilitate interac
 
 #### SenfiYar
 
-###### Description
-
 In the Senfi Yar program, users can share their Senfi-related issues in a manner similar to Reddit. Other users can view these posts, upvote or downvote them, and leave comments. Users have the option to remain completely anonymous or participate using their registered identity. Unlike typical forums or platforms like Reddit, official Senfi members are required to respond to issues with evidence, track the progress of specific problems, and report back on Senfi Yar or their channels.
 This program enhances transparency regarding university issues, improves communication between students and Senfi, strengthens the university community, and ultimately leads to a better understanding and resolution of problems.
-###### Access Level
-
-Viewing is open to all, but interaction requires Shahrvand status.
 
 #### NPC
 
 ###### Description
 
-The Nasir Programming Contest (NPC) is a system that tracks and stores participants' points in contests. It functions similarly to Quera, allowing for the creation and management of contests or managing links to existing Quera contests. Winners are rewarded with Nasir Coin through this module.
-###### Access Level
-
-Viewing is open to all, while interaction requires Biganeh status.
+The Nasir Programming Contest (NPC) is a system that tracks and stores participants' points in contests. It functions similarly to Quera, allowing for the creation and management of contests or managing links to existing Quera contests. Winners might be rewarded with Nasir Coin through this module.
 
 #### Nasir Wiki/Forum
 
-###### Description
-
 A student-driven forum and wiki covering KNTU-related topics, providing a repository of information on professors, subjects, administrative details and many other unwritten rules and knowledge crafted by elder student to guide inexperienced students.
-
-###### Access Level
-
-Viewing is open to all, with interaction privileges reserved for Shahrvand members.
 
 #### Currency Exchange
 
-###### Description
-
 Allows users to exchange Nasir Coins for other cryptocurrencies like Tether and Ether, enhancing transaction flexibility.
-
-###### Access Level
-
-Available to Biganeh users for transactions.
 
 #### Book & Note Exchange
 
-###### Description
-
 Facilitates the buying, selling, donating, and sharing of academic materials among students.
-
-###### Access Level
-
-Interaction requires Biganeh status.
 
 #### Food Code Exchange
 
-###### Description
-
 Enables students to exchange meal vouchers, enhancing convenience and reducing food wastage.
-
-###### Access Level
-
-Selling requires Shahrvand status, while buying is accessible to Biganeh users.
 
 #### Data Gathering System (DGS)
 
-###### Description
-
 Supports statistical data collection and surveys, benefiting academic research and student projects.
-
-###### Access Level
-
-Accessible exclusively to Shahrvand members.
 
 #### Autonomous Nasir Newspaper
 
-###### Description
-
 A decentralized platform for student-generated articles and news, fostering free expression and community engagement.
-
-###### Access Level
-
-Open to Biganeh users for publication and interaction.
 
 #### Snapp Share
 
-###### Description
-
 Facilitates ride-sharing among students, improving transportation options.
 
-###### Access Level
-
-Exclusive to Shahrvand users.
-
-# How to Build and Who?
+# How to Build and Who could participate?
 
 ### Development Process
 
-The Nasir Platform is developed collaboratively by CSSA programming clubs specializing in AI, Web Development, Blockchain, and Network & Security. Each club handles specific modules assigned to them, integrating their work with other clubs' contributions.
+The Nasir Platform is developed collaboratively by CSSA programming clubs specializing in AI, Web Development, Blockchain, and Network & Security, and other individuals. Each club handles specific modules assigned to them, integrating their work with other clubs' contributions.
 
-For detailed development guidelines of projects in Clubs, documentation available [here](link).
+For detailed development guidelines of projects in Clubs, documentation available [here](./CLUBS.md).
 
 ### Contributors
 
 Development efforts are led by club members who are passionate about learning and building practical solutions. Participation is open to all, including those outside KNTU who wish to join the clubs and contribute.
-
-* club members are given "Dev" status
  
 # Where to Use?
 
@@ -183,7 +130,7 @@ The Nasir Platform is designed to evolve dynamically, adapting to emerging needs
 
 ### Inspiration
 
-Inspired by Ethereum's decentralized ethos and open-source principles, the Nasir Platform the Nasir Platform emphasizes decentralization, adaptability, transparency, and collaborative development, driving its creation.
+Inspired by Ethereum's decentralized ethos and open-source principles, the Nasir Platform emphasizes decentralization, adaptability, transparency, and collaborative development, driving its creation.
 # Investment
 
 The platform sustains development through investments in Nasir Coin and advertising, ensuring continuous improvement and expansion.

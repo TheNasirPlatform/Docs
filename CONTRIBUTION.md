@@ -45,7 +45,6 @@ Developers should document their project in the following files:
 
 - `README.md`: Overview of the implementation and plan
 - `CONTRIBUTION.md`: How others can contribute to the project
-- `LICENSE.md`: Licensing details
 
 The following files are optional but encouraged:
 
